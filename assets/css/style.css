@@ -70,6 +70,12 @@ header h1{
 
 }
 
+
+
+      /* CENTER */
+
+
+
 .contenitore {
   content: "";
   display: table;
@@ -79,6 +85,7 @@ header h1{
 
 .riga{
   float: left;
+  min-width: 80px;
 }
 
 .a{
@@ -93,8 +100,40 @@ header h1{
 .box{
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  height: 500px;
+  /* height: 500px; */
+  position: relative;
 }
+
+.fa-rss-square{
+  color: rgb(249, 149, 0);
+  font-size: 25px;
+  float: left;
+  margin: 27px 5px 0 15px;
+}
+
+h3{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.article{
+  margin: 20px 20px;
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+.article a{
+  display: block;
+  margin-bottom: 15px;
+}
+
+h2{
+  margin: 20px 20px;
+}
+
+
+      /* FOOTER */
+
 
 footer{
   background-color: rgb(255, 255, 255);
@@ -105,6 +144,8 @@ footer{
 footer p{
   text-align: center;
   padding: 10px;
+  font-style: italic;
+  color: rgb(148, 148, 148);
 }
 
 ul{
@@ -114,5 +155,7 @@ ul{
 footer ul li{
   display: inline-block;
   line-height: 55px;
-  margin: 0 15%;
+  margin: 0 13%;
+  font-size: 30px;
+  opacity: 0.3;
 }
