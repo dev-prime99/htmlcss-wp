@@ -71,7 +71,11 @@ header h1{
   line-height: 40px;
   margin: 0 4%;
   color: rgb(255, 255, 255);
+}
 
+.navbar ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 
@@ -108,6 +112,8 @@ header h1{
   position: relative;
 }
 
+    /* RSS */
+
 .fa-rss-square{
   color: rgb(249, 149, 0);
   font-size: 25px;
@@ -129,7 +135,13 @@ h3{
 .article a{
   display: block;
   margin-bottom: 15px;
+  color: rgb(34, 147, 38);
+  text-decoration: none;
 }
+
+
+
+    /* CENTER */
 
 h2{
   padding: 20px 20px;
@@ -141,12 +153,16 @@ h2{
   line-height: 1.4;
 }
 
+    /* WIDGET */
+
 .widget h3{
   padding: 0 20px 20px 20px;
 }
 
 .widget p{
   padding: 0 20px 15px 20px;
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 .wdg{
