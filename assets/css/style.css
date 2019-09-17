@@ -19,22 +19,16 @@ header, .contenitore, footer{
   margin: auto;
 }
 
-
       /* header */
 
-
-header{
-  background-color: rgb(255, 255, 255);
-  height: 250px;
-  margin: 0 auto;
+.img{
+  position: relative;
 }
 
-.img{
-  background-image: url("../img/forest1.jpg");
-  height: 85%;
-  background-size: cover;
-  margin: 1%;
-  position: relative;
+#forest{
+  height: auto;
+  width: 100%;
+  border: 10px white solid;
 }
 
 header h1{
@@ -44,7 +38,7 @@ header h1{
   border: white 5px solid;
   position: absolute;
   z-index: 4;
-  top: 13%;
+  top: 50%;
   left: 50%;
   padding: 10px;
   transform: translate(-50%,-50%);
