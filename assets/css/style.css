@@ -29,6 +29,7 @@ header, .contenitore, footer{
   height: auto;
   width: 100%;
   border: 10px white solid;
+  display: block;
 }
 
 header h1{
@@ -37,7 +38,6 @@ header h1{
   font-size: 40px;
   border: white 5px solid;
   position: absolute;
-  z-index: 4;
   top: 50%;
   left: 50%;
   padding: 10px;
@@ -54,6 +54,7 @@ header h1{
 
 .navbar{
   height: 40px;
+  margin-bottom: 20px;
 }
 
 .navbar ul{
@@ -71,7 +72,6 @@ header h1{
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-
 
 
       /* CENTER */
